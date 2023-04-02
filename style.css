@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.buffer{
+    height: 50px;
+    border: 0;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5em;
+    height: 100vh;
+}
+
+.container > h1{
+    font-family: 'Times New Roman', Times, sans-serif;
+    font-size: 50px;
+    opacity: 50%;
+}
+
+h2, p{
+    font-family: 'Times New Roman', Times, sans-serif;
+    font-size: 30px;
+    opacity: 50%;
+}
